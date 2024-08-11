@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page to 3.0</title>
+    <style>body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        /* Styles remain unchanged from the previous example */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="username"><b>Your unique ID(provided)</b></label>
+        <input type="text" placeholder="Enter Unique ID" id="username" required>
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <script>
+        // Array of 1000 unique IDs (replace with your actual IDs)
+        var uniqueIDs = ['AK9Y7D3FLE81VP9E8B', 'DQZXWKJOC6JSVJ4T8Z', 'DZKOJHE6CC0AUS7ZGS', '0PMR1VA25JK2O48YXG', 'MIRO1ROKP1PVYOQB7W', 'WMNRBEY68B0VILJZ10', 'WUKSLZDPUAQ7WDYAAF', 'EEARG0S5L20R2CBRU3', 'WDIGDESGXWGX21I2X5', 'HGE98DPEV7VFFYZ45I', '84OVPAYHGMO5GVAKTN', '5OSP2TB7HGZSOC2JXG', 'J347EY12JGRJ0LDRH5', 'RI1E56WI94RBQH4JT9', '8JFX6WM59P3F1J474X', '37LGZJHF7RPPP3YU60', 'WH4UXVFNKOZERRA4DZ', 'SL6O314X98X57JBFKE', '268BKXVHUVAY29PCMH', '3VKGSNA5WSAMCHIAY9', 'DKFXLW2CUGE84MSDTR', 'Q02TR2LAOTADRT4XGE', 'J9HJULGOYF8HC5W4NU', 'BEU6YU9VT2YZMNDTXE', '5JS95PVMJIWC3DHM9L', 'MNM6UBA75UP8Y1XWY8', 'B1K2974G0Q9N211UBL', 'BRH6BXJFN72R4JHTQV', 'PJ25GFIN6O87Z9O8K6', 'ATR46YKE89YN0DDHOJ', 'MWCIAAUGO9DEKTX2M9', 'PCD4Q2GQKZXYO01RXH', '8IN2W77760DH9TZBMG', 'I9CSEZXSENP3A3Q4UC', 'ZQPUPSH4B8K4TSIVRM', '1EKK8GC9992SB8OQ85', 'OFDQSOZR78SNJI8AS6', 'GB4E0ADQ8RM622Q6HO', 'JM6VKNP0BM00HFAQ1Q', 'RJ75GJF9AVJXP90KTJ', 'DOZU2YUOKA6QQ3ZNC6', 'CIJSJSFZ7UPQ5T50DB', 'XDQNE24U09NB56JDNT', 'CSY9DD5NCFMWWPZCJ4', 'JC5IBXKLT0O7976CLO', 'GFHI10KNOA6XJFGD4X', '2T91T3W8Z8AALWVSKM', '8VFMVAPKFBO0YVSWLR', '6N6U26AC8BBHN9IS14', '0WEEX9TM0SOK0JD5J5', 'FJNSL51EI9D0ICV3WY', 'GGAFYP6DE9OO40XWSO', 'QY0YWCDKUESG4Y3447', 'YYA4DOHM4K9LFO0ESC', 'WWMG1L3T0V4JRRN8KQ', '283VI17NUM8DOTFGZ6', 'R8P8SIGQFTN7QF4IGR', 'PSK05HSY1XL6TI4OF2', 'C2HX2BTHW4P3KKKVKV', '3IZ07A56JXZ56HWC54', 'T5AFX6N8GY97Z2EOGQ', 'PA2EEQO0DQR9JBIJW6', 'VAIHEHD4OXHAECA6WU', '3B06RRJ29RQU3RURYY', 'E289PV90D951TC2SOY', 'PX64V3O4JOK9TOFQMU', 'BK0FZ5LYMSW1GC5C6P', '5ZITE0RX4XTGXV7XGB', '8RZJ0MQV5KDFZ86N8P', '3OSWBBIFCU3IWZFLOE', 'D51NE4TJH5DEZ69H8Q', 'YVV2G4P39VTMFDXLQH', 'VP83JQMOL1BZG1K28Q', 'AMY9NY2T2O5HBPXOXM', '5P2WGILM9VU6SUYW0R', 'K1ABULZB13Q5UKJ276', 'AHI9JIKHIO4H6EN7V8', 'XK04C6XXFNOCIOZ749', 'EDVNRPAM0OYU2L61FN', 'BIQHV6Z5ZO1S4LBOY9', 'JE2ISP4KHEQ38SAOZC', 'ZOM5IS4B45Q84ZCAOU', '6XKCH2KEZ2954XYV97', 'D29NV5K503KN4GADYH', 'K030114058U35DTIQU', 'S26R0VL32L7Q0W6HWB', '86AH4A0DT9LA04HK1G', '6B0D4L0I85P0636LAE', '2PHK591JH8T8E5PTNI', 'KMQHG6HRDSIDC0TZ1N', 'DQCKOVX96C8Z1HBWOY', '8BFB05ERJDG07J7901', '0DE6VBAMIB9CFMU2NT', 'VRB5BXK8NG7MM66QGR', 'RG4ZYHH4T2UM2FKIQL', '6GIYMUREQMUW4BJCG8', '1NGZV2CMMMAID6O2UG', 'MRK3455XLTF8Q62XVM', '5DEW6E69PZZP7B7WJ1', '8U4ID9GA58D6ZN9404'];
+
+        function login() {
+            var username = document.getElementById('username').value;
+
+            // Check if the entered username is in the array of unique IDs
+            if (uniqueIDs.includes(username)) {
+                window.location.href = 'https://shadhinsclassroom.my-board.org/Subjects';
+ // Replace 'main_page.html' with your actual main page URL
+    } 
+else {
+    console.log('Access denied!');
+   window.location.href = 'wrongg.html';
+    // Handle incorrect credentials
+}
+}
+    </script>
+</body>
+
+</html>
