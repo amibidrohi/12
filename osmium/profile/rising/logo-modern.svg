@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+<defs><linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#14b8a6"/><stop offset="1" stop-color="#2563eb"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-opacity=".16"/></filter></defs>
+<rect x="24" y="24" width="852" height="272" rx="72" fill="#f8ffff" filter="url(#s)"/>
+<circle cx="160" cy="160" r="92" fill="url(#a)"/>
+<path d="M112 160h96M160 112v96" stroke="#fff" stroke-width="24" stroke-linecap="round"/>
+<path d="M111 218c32 28 66 42 101 42 39 0 72-14 98-42" fill="none" stroke="#ccfbf1" stroke-width="18" stroke-linecap="round" opacity=".85"/>
+<text x="292" y="146" font-family="Arial, sans-serif" font-size="84" font-weight="900" fill="#0f172a">Rising</text>
+<text x="298" y="203" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#0f766e">Nursing &amp; Caregiver Institute</text>
+<text x="300" y="242" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#64748b">Learn • Care • Serve</text>
+</svg>
