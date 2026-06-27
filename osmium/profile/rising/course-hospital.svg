@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#fef9c3"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-opacity=".18"/></filter></defs>
+<rect width="1200" height="760" rx="42" fill="url(#g)"/><circle cx="1000" cy="120" r="180" fill="#fff" opacity=".18"/><circle cx="160" cy="660" r="220" fill="#fff" opacity=".13"/>
+<rect x="90" y="96" width="1020" height="568" rx="38" fill="#ffffff" opacity=".86" filter="url(#s)"/>
+<text x="135" y="185" font-family="Arial, sans-serif" font-size="62" font-weight="800" fill="#0f172a">হাসপাতাল সাপোর্ট সার্ভিস</text>
+<text x="137" y="242" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#475569">ওয়ার্ড, ডকুমেন্টেশন ও রোগী সাপোর্ট</text>
+<g transform="translate(735 270)"><rect x="75" y="70" width="170" height="240" rx="42" fill="#14b8a6" opacity=".18"/><path d="M130 78v85l-70 125c-17 31 5 69 41 69h118c36 0 58-38 41-69l-70-125V78" stroke="#0f172a" stroke-width="28" fill="none" stroke-linecap="round"/><path d="M99 274h122" stroke="#14b8a6" stroke-width="30" stroke-linecap="round"/></g>
+<rect x="135" y="470" width="330" height="76" rx="38" fill="#14b8a6"/><text x="178" y="520" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">Rising Institute</text>
+<g fill="#14b8a6" opacity=".18"><rect x="135" y="300" width="440" height="22" rx="11"/><rect x="135" y="342" width="365" height="22" rx="11"/><rect x="135" y="384" width="410" height="22" rx="11"/></g>
+</svg>
