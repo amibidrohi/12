@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ccfbf1"/><stop offset="1" stop-color="#dbeafe"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-opacity=".18"/></filter></defs>
+<rect width="1200" height="760" rx="42" fill="url(#g)"/><circle cx="1000" cy="120" r="180" fill="#fff" opacity=".18"/><circle cx="160" cy="660" r="220" fill="#fff" opacity=".13"/>
+<rect x="90" y="96" width="1020" height="568" rx="38" fill="#ffffff" opacity=".86" filter="url(#s)"/>
+<text x="135" y="185" font-family="Arial, sans-serif" font-size="62" font-weight="800" fill="#0f172a">নার্সিং ও কেয়ারগিভার শিক্ষা</text>
+<text x="137" y="242" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#475569">দক্ষ প্রশিক্ষণে গড়ুন স্বাস্থ্যসেবার ক্যারিয়ার</text>
+<g transform="translate(735 270)"><circle cx="140" cy="110" r="86" fill="#14b8a6" opacity=".16"/><path d="M85 78h110v68H85z" rx="18" fill="#14b8a6"/><rect x="127" y="43" width="26" height="104" rx="10" fill="#fff"/><rect x="88" y="82" width="104" height="26" rx="10" fill="#fff"/><circle cx="140" cy="225" r="58" fill="#0f172a" opacity=".85"/><path d="M70 348c16-74 124-74 140 0" stroke="#0f172a" stroke-width="38" stroke-linecap="round" fill="none"/></g>
+<rect x="135" y="470" width="330" height="76" rx="38" fill="#14b8a6"/><text x="178" y="520" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">Rising Institute</text>
+<g fill="#14b8a6" opacity=".18"><rect x="135" y="300" width="440" height="22" rx="11"/><rect x="135" y="342" width="365" height="22" rx="11"/><rect x="135" y="384" width="410" height="22" rx="11"/></g>
+</svg>
