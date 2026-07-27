@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" role="img" aria-label="থাকবো">
+<g transform="translate(15 7) scale(.56)">
+<path fill="#E85D4A" d="M256 18C134 18 54 111 54 223c0 141 151 252 202 286 51-34 202-145 202-286C458 111 378 18 256 18Z"/>
+<circle cx="256" cy="203" r="135" fill="#FFF8F4"/>
+<circle cx="256" cy="156" r="58" fill="#F7A928"/>
+<path fill="#243042" d="M121 222 245 116a17 17 0 0 1 22 0l52 44v-27h47v67l32 27a18 18 0 0 1-23 28L256 154 144 250a18 18 0 0 1-23-28Z"/>
+<path fill="#FFF" d="M151 246 256 158l105 88v80c-31 20-67 31-105 31s-74-11-105-31v-80Z"/>
+<path fill="#243042" d="M228 277a28 28 0 0 1 56 0v74c-9 2-19 3-28 3s-19-1-28-3v-74Z"/>
+<path fill="none" stroke="#FFF" stroke-width="21" stroke-linecap="round" d="M93 359c72-32 151-19 205 1 47 18 87 17 123-2"/>
+<path fill="none" stroke="#243042" stroke-width="28" stroke-linecap="round" d="M98 368c70-29 139-10 187 7 50 18 91 14 130-9"/>
+</g>
+<text x="330" y="185" font-family="Hind Siliguri, Noto Sans Bengali, sans-serif" font-size="150" font-weight="700" fill="#243042">থাকবো</text>
+<text x="338" y="238" font-family="Hind Siliguri, Noto Sans Bengali, sans-serif" font-size="35" font-weight="600" fill="#E85D4A" letter-spacing="1">বাংলাদেশের আপন ঠিকানা</text>
+</svg>
